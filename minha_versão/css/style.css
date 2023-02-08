@@ -1,0 +1,129 @@
+/* Limpar as formatações padrões */ 
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	font-size: 16px;
+	font-family: "sans-serif", Helvetica;
+	background: #F2F2F2;
+}
+
+img{
+	height: 200px;
+	width: 210px;
+}
+
+h2{
+	color: #A6445E;
+}
+
+
+/* id's */
+#navegacao{
+	background: #FFF;
+	border-bottom: 1px solid #F2C9D4;
+	height: 45px;
+	width: 100%;
+}
+
+
+#area{
+	width: 720px;
+	margin: 0 auto;
+
+}
+
+#logo {
+	float: left;
+	font-family: monospace;
+	font-style: italic;
+
+}
+
+#menu{
+	float: right;
+	margin-right: 300px;
+
+	padding: 10px;}
+
+
+
+#area-principal{
+	width: 720px;
+	margin: 10px auto 10px auto;
+
+}
+
+#postagem{
+	background: #FFF;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+/*classes*/
+
+.letras-diferentes{
+	color: #A6445E;
+}
+
+.data-postagem{
+	font-size: 14px;
+	border-bottom: 1px solid #F2AEC1 ;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom:10px;
+
+}
+
+.img-postagem{
+	float: left;
+	margin: 0 10px 5px 10px;
+}
+
+.postado{
+	border-left: 3px solid #F291B5;
+	padding-left: 5px;
+	display: block;
+	margin-top: 10px;
+}
+.nome{
+	color:#BF4996;
+	font-weight: bold;
+}
+
+/* *******formatação do menu********* */
+
+a{
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+/* links não visitados */
+
+a:link{
+	color: #73310A;
+
+}
+
+/* visitados */
+a:visited{
+	color: #73310A;
+	}
+
+/* hover */
+a:hover{
+	background: #F2D5DB;
+	color: #594347;
+	border: 3px solid #F2C9D4;
+	border-radius: 20%;
+	font-size: 17.8px;
+
+}
+
+/* active */
+a:active{ 
+	color: #A6445E;
+ }
